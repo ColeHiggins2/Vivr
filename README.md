@@ -1,4 +1,4 @@
-# Vivr
+# Vivr "Look at life from the other side"
 
 
 Vivr is an application that mirrors an image back and forth at a specific pace providing you with a new perspective of your photos.
