@@ -36,7 +36,7 @@ def video(image_folder, video_name):
     frame = cv2.imread(os.path.join(image_folder, images[0]))
     height, width, layers = frame.shape
 
-    video = cv2.VideoWriter(video_name, 0, 3, (width,height))
+    video = cv2.VideoWriter(video_name, 0, 2, (width,height))
 
     for image in images:
         video.write(cv2.imread(os.path.join(image_folder, image)))
