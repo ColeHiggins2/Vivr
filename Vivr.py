@@ -7,6 +7,11 @@ from PIL import Image
 # read image in and flips image
 class Images:
 
+    def __init__(self, im, image_folder, video_name):
+        self.im = im
+        self.image_folder = image_folder
+        self.video_name = video_name
+
     def flip_image(im):
         org = Image.open(im).convert('RGB')
         new = Image.new("RGB", org.size)
