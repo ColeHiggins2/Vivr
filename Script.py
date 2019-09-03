@@ -20,8 +20,8 @@ def Main():
                 cv2.imwrite(os.path.join(path, 'img.%5d.jpeg' % (i)), img)
                 i += 1
 
-    Vivr.Images.video(path, video_name="MyVivr.mp4")
-    Vivr.Images.delete_images(path)
+    Vivr.video(path, video_name="MyVivr.mp4")
+    Vivr.delete_images(path)
 
 
 if __name__ == "__main__":
